@@ -1,0 +1,9 @@
+name: 'Hello, world!'
+description: 'Prints a hello message'
+
+runs:
+  using: 'docker'
+  image: 'alpine:3.13'
+  entrypoint: ['sh', '-c']
+  args:
+    - echo "Hello, world!"
